@@ -1,0 +1,298 @@
+@media (max-width: 1164px) {
+    #header h1 {
+        font-size: 58px;
+    }
+}
+@media (max-width: 1024px) {
+    .card p {
+        font-size: 17px;
+        padding: 20px 8px;
+    }
+    .sect7-box {
+        max-width: 670px;
+    }
+    .sect7-box p {
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 992px) {
+    #header h1 {
+        font-size: 50px;
+    }
+    #header p {
+        font-size: 20px;
+    }
+    .header-box {
+        padding: 120px;
+    }
+    .sect1 img {
+        width: 8%;
+    }
+    .sect1 h2 {
+        font-size: 40px;
+    }
+    .sect1-boxes {
+        gap: 10px;
+    }
+    .sect1-box img {
+        width: 33%;
+    }
+    .sect1-box p {
+        font-size: 13px;
+    }
+    .sect2-box1 h2 {
+        font-size: 40px;
+    }
+    .sect2-box1 p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .sect3 h2 {
+        font-size: 40px;
+    }
+    .sect4-box h2 {
+        font-size: 40px;
+    }
+    .sect4-box p {
+        font-size: 18px;
+    }
+    .sect5-box-left img {
+        height: 400px;
+    }
+    .sect5-box-r1 h2 {
+        font-size: 38px;
+    }
+    .sect5-box-r1 p {
+        font-size: 16px;
+    }
+    .card p {
+        padding: 18px 8px;
+    }
+    .sect6 h2 {
+        font-size: 40px;
+    }
+    .sect7-box h2 {
+        font-size: 40px;
+    }
+    .sect7-box p {
+        font-size: 18px;
+    }
+    .footer h2 {
+        font-size: 40px;
+    }
+    .footer a {
+        font-size: 16px;
+    }   
+}
+@media (max-width: 865px) {
+    .sect1-boxes {
+        gap: 0;
+        padding: 20px 40px 0;
+    }
+    .sect1-box h3 {
+        font-size: 20px;
+    }
+    .sect2-box1 h2 {
+        font-size: 32px;
+    }
+    .sect2-box2 img {
+        padding-left: 15px;
+    }
+    .sect2-img1 {
+        width: 38%;
+    }
+    .sect2-img2 {
+        width: 57%;
+    }
+    .sect2-box1 {
+        width: 80%;
+    }
+    .sect2-box1 p {
+        padding-bottom: 0;
+    }
+    .sect5-boxes {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .sect5-box-left img {
+        height: 350px;
+    }
+    .sect5-box-r1 p {
+        padding: 25px 30px 0;
+    }
+    .sect5-box-r2 {
+        padding: 0 40px;
+    }
+    .card {
+        width: 25%;
+        border-radius: 15px;
+    }
+}
+@media (max-width: 734px) {
+    .sect2-box {
+        flex-direction: column;
+    }
+    .sect2-box1 {
+        width: 100%;
+        text-align: center;
+    }
+    .sect2-box1 p {
+        padding: 15px 50px 0;
+    }
+    .sect2-box2 img {
+        height: 260px;
+    }
+}
+@media (max-width: 640px) {
+    #header h1 {
+        font-size: 35px;
+    }
+    #header p {
+        font-size: 15px;
+    }
+    .header-box {
+        padding: 80px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 12px 28px;
+    }
+    .sect1 h2 {
+        font-size: 28px;
+    }
+    .sect1-boxes {
+        flex-wrap: wrap;
+    }
+    .sect1-box {
+        padding: 10px;
+        width: 177px;
+    }
+    .sect1-box h3 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .sect1-box p {
+        font-size: 12px;
+        line-height: 15px;
+        padding-top: 10px;
+    }
+    .sect2-box {
+        padding-top: 60px;
+    }
+    .sect2-box2 {
+        padding: 0 60px;
+    }
+    .sect2-box1 p {
+        font-size: 14px;
+    }
+    .sect2-box2 img {
+        height: 200px;
+    }
+    .sect3 {
+        margin-top: 60px;
+    }
+    .sect3 h2 {
+        font-size: 30px;
+    }
+    .sect4 {
+        padding-top: 60px;
+    }
+    .sect4-box {
+        max-width: 400px;
+        padding: 18px 50px;
+    }
+    .sect4-box h2 {
+        font-size: 30px;
+    }
+    .sect4-box p {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .sect5-boxes {
+        margin-top: 80px;
+    }
+    .sect5-box-left img {
+        height: 280px;
+    }
+    .sect5-box-r1 h2 {
+        font-size: 30px;
+    }
+    .sect5-box-r1 p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .card p {
+        padding: 15px 6px;
+    }
+    .sect6 h2 {
+        margin-top: 60px;
+        font-size: 30px;
+    }
+    .sect6 p {
+        font-size: 14px;
+        padding: 18px 0;
+    }
+    .sect6-item p {
+        padding-bottom: 6px;
+        font-size: 11px
+    }
+    .sect6-item input {
+        font-size: 12px;
+        padding: 10px;
+        width: 130px;
+    }
+    .width input {
+        width: 170px;
+    }
+    .sect7 {
+        padding-top: 70px;
+    }
+    .sect7-box {
+        max-width: 450px;
+    }
+    .sect7-box h2 {
+        font-size: 30px;
+        padding-top: 18px;
+    }
+    .sect7-box p {
+        font-size: 14px;
+        padding: 18px 18px 30px;
+    }
+    .footer {
+        margin: 80px 0 40px;
+    }
+    .footer h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .footer a {
+        font-size: 14px;
+        padding: 16px;
+    }
+}
+@media (max-width: 580px) {
+    .sect5-box-r2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card {
+        width: 35%;
+    }
+}
+@media (max-width: 430px) {
+    .sect5-box-r2 {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 48%;
+    }
+    .sect2-box2 img {
+        height: 150px;
+    }
+}
+@media (max-width: 360px){
+    .sect2-box2 img {
+        height: 130px;
+    }
+}

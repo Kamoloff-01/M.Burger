@@ -1,0 +1,353 @@
+@import "./fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../img/bg.png) no-repeat center/cover;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+#header {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-box {
+    text-align: center;
+    padding: 150px;
+}
+#header h1 {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+#header p {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #F2F2F2;
+}
+.btn {
+    background: #F2C94C;
+    border-radius: 30px;
+    font-family: 'Roboto-Bold';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding: 16px 40px;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #f57f09;
+    color: #d6cfcf;
+    box-shadow: 0 0 7px rgb(215, 193, 20);
+    transition: .3s;
+}
+.sect1 {
+    text-align: center;
+    padding-top: 50px;
+}
+.sect1 h2 {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 109%;
+    color: #EABF3C;
+}
+.sect1-boxes {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+.sect1-box {
+    padding: 15px;
+    border-radius: 24px;
+    width: 189px;
+}
+.sect1-box img {
+    width: 35%;
+}
+.sect1-box h3 {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-top: 22px;
+}
+.sect1-box p {
+    display: inline-block;
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #E0E0E0;
+    padding-top: 14px;
+}
+.sect1-box:hover {
+    background: #EABF3C;
+    border-radius: 24px;
+    transition: .4s;
+}
+.sect1-box:hover h3 {
+    color: #333;
+    transition: .4s;
+}
+.sect1-box:hover p {
+    color: #4f4f4f;
+    transition: .4s;
+}
+.sect2-box {
+    display: flex;
+    padding-top: 100px;
+}
+.sect2-box1 {
+    width: 50%;
+}
+.sect2-box1 h2 {
+    font-family: 'Lobster-Repgular';
+    font-weight: 400;
+    font-size: 50px;
+    color: #EABF3C;
+}
+.sect2-box1 p {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #F2F2F2;
+    padding-top: 17px;
+    padding-bottom: 30px;
+}
+.sect2-box2 img {
+    padding-left: 25px;
+    padding-top: 30px;
+}
+.sect2-img1 {
+    width: 38%;
+}
+.sect2-img2 {
+    width: 57%;
+}
+.sect3 {
+    text-align: center;
+    margin-top: 105px;
+}
+.sect3 h2 {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 109%;
+    color: #EABF3C;
+}
+.sect3-boxes {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.sect3-boxes img {
+    width: 18%;
+}
+.sect4 {
+    text-align: center;
+    padding-top: 100px;
+}
+.sect4-box {
+    max-width: 580px;
+    background: #EABF3C;
+    border-radius: 24px;
+    margin: 0 auto;
+    padding: 25px 80px;
+}
+.sect4-box h2 {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 50px;
+    color: #333333;
+}
+.sect4-box p {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+    padding-top: 17px;
+}
+.sect5-boxes {
+    margin-top: 180px;
+    display: flex;  
+    gap: 50px;
+}
+.sect5-box-left img {
+    height: 480px;
+}
+.sect5-box-right {
+    display: flex;
+    flex-direction: column;
+}
+.sect5-box-r1 h2 {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 45px;
+    color: #EABF3C;
+}
+.sect5-box-r1 p {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #F2F2F2;
+    padding: 25px 0 0;
+}
+.sect5-box-r2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+}
+.card p {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 25px 10px;
+}
+#card1 {
+    background-image: url(../img/sect5-img1.png);
+}
+#card2 {
+    background-image: url(../img/sect5-img2.png);
+}
+#card3 {
+    background-image: url(../img/sect5-img3.png);
+}
+#card4 {
+    background-image: url(../img/sect5-img4.png);
+}
+.sect6 {
+    text-align: center;
+}
+.sect6 h2 {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #F2F2F2;
+    margin-top: 120px;
+}
+.sect6 p {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #F2F2F2;
+    padding: 25px 0;
+}
+.sect6-items {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+}
+.sect6-item p {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    color: #F2C94C;
+    text-align: start;
+    padding-bottom: 8px;
+}
+.sect6-item input {
+    border: 1px solid #F2F2F2;
+    border-radius: 30px;
+    background:rgba(0, 0, 0, 0.1);
+    padding: 13px;
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 14px;
+    color: #F2F2F2;
+    width:  170px;
+}
+.width input{
+    width: 240px;
+}
+.sect7 {
+    padding-top: 140px;
+}
+.sect7-box {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    background-image: url(../img/sect7-img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.sect7-box h2 {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 50px;
+    color: #EABF3C;
+    padding-top: 38px;
+}
+.sect7-box p {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #F2F2F2;
+    padding: 25px;
+    padding-bottom: 100px;
+}
+.footer {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+.footer h2 {
+    font-family: 'Lobster-Regular';
+    font-weight: 400;
+    font-size: 50px;
+    color: #F2F2F2;
+    padding-bottom: 28px;
+}
+.footer a {
+    font-family: 'Roboto-Regular';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #F2F2F2;
+    padding: 29px;
+}
+.footer a:hover {
+    color: #EABF3C;
+}
